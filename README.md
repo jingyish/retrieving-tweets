@@ -2,6 +2,8 @@
 for this code, it can search all the twitters about the screen_name
 I download tweepy but I don't kown why I cannot use tweepy module in python, I can just put the code in here.
 This program is reference from stackoverflow, retrieving tweepy. It can retieve tweets from BBC twitter account with the twitter API.
+Reference code from Twitter API
+
 import tweepy
 import json
 
