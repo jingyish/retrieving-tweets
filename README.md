@@ -6,7 +6,9 @@ Reference code from Twitter API
 
 
 User story:
+
 1:search specific twitters which contains specific name.
+
 2:Get the users timeline for the twitters.
 
 import tweepy
