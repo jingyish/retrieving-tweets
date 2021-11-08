@@ -7,25 +7,14 @@ Created on Fri Oct 29 21:11:45 2021
 """
 #This can get the users' timeline
 
-import twitter
-
-def oauth_login():
-    CONSUMER_KEY = ''
-    CONSUMER_SECRET = ''
-    OAUTH_TOKEN = '' 
-    OAUTH_TOKEN_SECRET = ''
-    # Creating the authentification
-    auth = twitter.oauth.OAuth( OAUTH_TOKEN,
-                                OAUTH_TOKEN_SECRET,
-                                CONSUMER_KEY,
-                                CONSUMER_SECRET )
-
-    twitter_api = twitter.Twitter(auth=auth)
-    return twitter_api
+import tweepy
 
 
-twitter_api = oauth_login()
+auth = tweepy.OAuthHandler('jMCXJ1l7bdMmVGF87kn8iBNZ7', 'cwyMm17J0wtW3MubNiUfHeWZj2o0QkapDdfqPw52bDkckGDzPJ')
+auth.set_access_token('1440733712258195460-bnsoQHsEAT8Ul8v97mKgNoIt61AHus', 'AUSOLPr074Q1f4oC8DHjI0l6xjVECQkWFwCoPu564GDvD')
 
-statuses = twitter_api.statuses.user_timeline(screen_name='SpongeBob')
+api = tweepy.API(auth)
 
-print ([status['text'] for status in statuses])
+public_tweets = api.home_timeline()
+for tweet in public_tweets:
+    print(tweet.text)
