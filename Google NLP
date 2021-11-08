@@ -1,0 +1,32 @@
+Analyze a paragraph about Michigan Lake in websit:https://www.michigan.org/great-lakes/lake-michigan
+
+"Michigan’s third largest lake with a water surface area of 22,300 square miles, Lake Michigan’s expansive shoreline boasts several stunning dune regions. Sleeping Bear Dunes National Lakeshore is home to cascading sand dunes reaching as high as 450 feet above Lake Michigan. Others include Nordhouse Dunes at Ludington and Warren Dunes State Park near the Indiana state line, as well as the Gillette Sand Dune Visitor Center at P.J. Hoffmaster State Park in Muskegon. The lake also contains numerous islands, notably the Beaver Island archipelago and the North and South Manitou Islands located between the Upper and Lower peninsulas."
+
+This introduce Michigan Lake and the NPL API analyze sentiment below: Document and Sentence Level Sentiment Score Magnitude Entire Document 0.2 1.3 Michigan’s third largest lake with a water surface area of 22,300 square miles, Lake Michigan’s expansive shoreline boasts several stunning dune regions. 0.8 0.8 Sleeping Bear Dunes National Lakeshore is home to cascading sand dunes reaching as high as 450 feet above Lake Michigan. 0.1 0.1 Others include Nordhouse Dunes at Ludington and Warren Dunes State Park near the Indiana state line, as well as the Gillette Sand Dune Visitor Center at P.J. 0 0 Hoffmaster State Park in Muskegon. 0.2 0.2 The lake also contains numerous islands, notably the Beaver Island archipelago and the North and South Manitou Islands located between the Upper and Lower peninsulas. 0.1 0.1 Score Range 0.25 — 1.0 -0.25 — 0.25 -1.0 — -0.25 Entity Level Sentiment LOCATION
+
+lake Sentiment: Score 0.4 Magnitude 0.4 LOCATION
+water surface area Sentiment: Score 0.4 Magnitude 0.4 LOCATION
+Lake Michigan Sentiment: Score 0.4 Magnitude 1.3 LOCATION
+shoreline Sentiment: Score 0.5 Magnitude 0.5 LOCATION
+dune regions Sentiment: Score 0.4 Magnitude 0.4 LOCATION
+sand dunes Sentiment: Score 0.3 Magnitude 0.3 LOCATION
+lake Sentiment: Score 0 Magnitude 0 LOCATION
+home Sentiment: Score 0.2 Magnitude 0.2 PERSON
+Others Sentiment: Score 0 Magnitude 0 LOCATION
+state line Sentiment: Score 0 Magnitude 0 LOCATION
+Nordhouse Dunes Sentiment: Score 0 Magnitude 0 LOCATION
+Sleeping Bear Dunes National Lakeshore Sentiment: Score 0.3 Magnitude 0.3 LOCATION
+islands Sentiment: Score 0 Magnitude 0 LOCATION
+archipelago Sentiment: Score 0 Magnitude 0 LOCATION
+Warren Dunes State Park Sentiment: Score 0 Magnitude 0 LOCATION
+Ludington Sentiment: Score 0 Magnitude 0 LOCATION
+Indiana Sentiment: Score 0 Magnitude 0 LOCATION
+Beaver Island Sentiment: Score 0 Magnitude 0 LOCATION
+peninsulas Sentiment: Score 0 Magnitude 0 OTHER
+Lower Sentiment: Score 0 Magnitude 0 LOCATION
+North and South Manitou Islands Sentiment: Score 0 Magnitude 0 ORGANIZATION
+Upper Sentiment: Score 0 Magnitude 0 LOCATION
+Hoffmaster State Park Sentiment: Score 0 Magnitude 0 LOCATION
+Gillette Sand Dune Visitor Center Sentiment: Score 0 Magnitude 0 LOCATION
+P.J. Sentiment: Score 0 Magnitude 0 LOCATION
+Muskegon Sentiment: Score 0 Magnitude 0
