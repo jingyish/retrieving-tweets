@@ -10,8 +10,8 @@ Created on Fri Oct 29 21:11:45 2021
 import tweepy
 
 
-auth = tweepy.OAuthHandler('jMCXJ1l7bdMmVGF87kn8iBNZ7', 'cwyMm17J0wtW3MubNiUfHeWZj2o0QkapDdfqPw52bDkckGDzPJ')
-auth.set_access_token('1440733712258195460-bnsoQHsEAT8Ul8v97mKgNoIt61AHus', 'AUSOLPr074Q1f4oC8DHjI0l6xjVECQkWFwCoPu564GDvD')
+auth = tweepy.OAuthHandler('xxxxxxx', 'xxxxxx')
+auth.set_access_token('xxxxxxxx', 'xxxxxxxx')
 
 api = tweepy.API(auth)
 
