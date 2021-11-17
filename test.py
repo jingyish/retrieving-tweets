@@ -10,8 +10,8 @@ import pandas as pd
 from TwitterAPI import TwitterAPI
 from TwitterAPI import TwitterPager    
 def timeline():
-    auth = tweepy.OAuthHandler('jMCXJ1l7bdMmVGF87kn8iBNZ7', 'cwyMm17J0wtW3MubNiUfHeWZj2o0QkapDdfqPw52bDkckGDzPJ')
-    auth.set_access_token('1440733712258195460-bnsoQHsEAT8Ul8v97mKgNoIt61AHus', 'AUSOLPr074Q1f4oC8DHjI0l6xjVECQkWFwCoPu564GDvD')
+    auth = tweepy.OAuthHandler('xxxxxxx', 'xxxxxxxx')
+    auth.set_access_token('xxxxxxxxx', 'xxxxxxxx')
     
     api = tweepy.API(auth)
     
