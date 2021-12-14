@@ -13,3 +13,4 @@ User story:
 
 MVP:
 To use this code, users can get a certain number with they want to take as quickly as they can. And with their certain goal name. This can help them to catch data convenience.
+For example, user want to catch data about Michigan state university's baseball, they can search id with "Michigan State Basketball", and enter the number which they want to have. Then they can get news which they want to know.
